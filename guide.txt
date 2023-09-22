@@ -1,0 +1,13 @@
+
+1. create github and repo and clone it
+2. npx create-react-app .
+3. npm install react-router-dom
+4. npm install dotenv
+5. make cleanup
+
+NOTE: If you face any dependecy error, use "--legacy-peer-deps" or "--force". Example:
+npm install dotenv --legacy-peer-deps
+
+NOTE: Add this script tag to your index.html to avoid red react.js icon in your browser
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
